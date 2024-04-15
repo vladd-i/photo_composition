@@ -18,25 +18,26 @@ Below is the overview of the directory structure of the project:
 ```
 photo_composition/
 │
-├── notebooks/                       # Jupyter notebooks for data analysis and exploration
-│   ├── exploratory_data_analysis.ipynb
-│   └── modeling.ipynb               # TODO
+├── notebooks/                               # Jupyter notebooks for data analysis and exploration
+│   ├── eda.ipynb                            # Exploratory Data Analysis
+│   └── modeling.ipynb                       # TODO
 │
-├── src/                             # Source code for the project
-│   ├── __init__.py                  # TODO: Makes src a Python module
+├── src/                                     # Source code for the project
+│   ├── __init__.py                          # TODO: Makes src a Python module
 │   │
-│   └── data/                        # Scripts/modules for data loading and manipulation
-│       ├── dataloader.py            # TODO
-│       ├── preprocess.py            # TODO
-│       └── feature_engineer.py      # TODO
+│   └── data/                                # Scripts/modules for data loading and manipulation
+│       ├── dataloader.py                    # TODO
+│       ├── visualize_cadb_annotation.py     # Visualizing annotations of composition score, scene category, 
+│       │                                    # and composition element
+│       └── feature_engineer.py              # TODO
 │
-├── configs/                         # Configuration files (e.g., for preprocessing)
+├── configs/                                 # Configuration files (e.g., for preprocessing)
 │   └── config.yaml
 │
-├── requirements.txt                 # TODO: Project dependencies
-├── setup.py                         # TODO: Setup script for installing the project module
-├── .gitignore                       # Specifies intentionally untracked files to ignore
-└── README.md                        # Project overview, setup, and usage instructions
+├── requirements.txt                         # TODO: Project dependencies
+├── setup.py                                 # TODO: Setup script for installing the project module
+├── .gitignore                               # Specifies intentionally untracked files to ignore
+└── README.md                                # Project overview, setup, and usage instructions
 ```
 
 ## Setup and Installation
