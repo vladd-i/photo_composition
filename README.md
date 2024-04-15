@@ -1,7 +1,5 @@
 # Evaluation Photo Composition with Geometric Representation Learning
 
-This project aims to optimize the process of selecting high quality sites to conduct clinical trials at. Utilizing data analysis and machine learning techniques, I strive to develop an AI-powered tool to shorten the total timeline from trial design to the Last Patient Last Visit (LPLV).
-
 ## Motivation and Background
 The composition of a photograph is critical to its aesthetic appeal. However, evaluating composition quality often relies on subjective human judgment. This project aims to objectify this evaluation using Geometric Machine Learning, particularly focusing on manifold learning with annotated composition elements to decipher the geometrical underpinnings that constitute well-composed images.
 
