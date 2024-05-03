@@ -6,8 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
-# Exclude the root data folder
+# Exclude the root data and visualizations folders
 /data/
+/visualizations
 
 # .DS_Store
 .DS_Store
