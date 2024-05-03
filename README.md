@@ -19,23 +19,17 @@ Below is the overview of the directory structure of the project:
 photo_composition/
 │
 ├── notebooks/                               # Jupyter notebooks for data analysis and exploration
-│   ├── eda.ipynb                            # Exploratory Data Analysis
-│   └── modeling.ipynb                       # TODO
+│   ├── eda.ipynb                            # Preprocessing the data and analyzing distribution
+│   ├── feature_engineering.ipynb            # Creating new features that comprise a high-dimensional
+│   │                                        # embedding for each image
+│   └── modeling.ipynb                       # Applying manifold learning techniques to extract patterns
 │
 ├── src/                                     # Source code for the project
-│   ├── __init__.py                          # TODO: Makes src a Python module
-│   │
 │   └── data/                                # Scripts/modules for data loading and manipulation
-│       ├── dataloader.py                    # TODO
-│       ├── visualize_cadb_annotation.py     # Visualizing annotations of composition score, scene category, 
-│       │                                    # and composition element
-│       └── feature_engineer.py              # TODO
-│
-├── configs/                                 # Configuration files (e.g., for preprocessing)
-│   └── config.yaml
+│       └── visualize_cadb_annotation.py     # Visualizing annotations of composition score,  
+│                                            # scene category, and composition element
 │
 ├── requirements.txt                         # TODO: Project dependencies
-├── setup.py                                 # TODO: Setup script for installing the project module
 ├── .gitignore                               # Specifies intentionally untracked files to ignore
 └── README.md                                # Project overview, setup, and usage instructions
 ```
@@ -51,8 +45,8 @@ photo_composition/
     pip install -r requirements.txt
     ```
 
-3. Set up the environment variables and configurations as needed in the `configs/` directory.
-
 ## Usage
 
-- To inspect exploratory data analysis results, navigate to the `notebooks/` directory and open the Jupyter notebooks.
+- Navigate to the `notebooks/` directory and open the Jupyter notebooks to inspect exploratory data analysis results, 
+feature engineering steps, and manifold learning techniques applied to high-dimensional image representations to learn 
+patterns.
