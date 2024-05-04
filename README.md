@@ -1,15 +1,17 @@
-# Evaluation Photo Composition with Geometric Representation Learning
+# Decoding Photographic Composition with Geometric Machine Learning
 
 ## Motivation and Background
 The composition of a photograph is critical to its aesthetic appeal. However, evaluating composition quality often relies on subjective human judgment. This project aims to objectify this evaluation using Geometric Machine Learning, particularly focusing on manifold learning with annotated composition elements to decipher the geometrical underpinnings that constitute well-composed images.
 
-There are a variety of models that can predict the aesthetic appeal of an image. ChatGPT can analyze an uploaded photograph and provide an evaluation of its composition in text format. Other models use deep convolutional neural nets or various heuristics, including those related to color and contrast, to evaluate aesthetic appeal. Unlike the existing models that predict compositional success through a black box approach, this project delves deeper into establishing objective geometrical relationships that define good photographic composition. By focusing on interpretability, I aim to identify actionable insights that contribute to enhanced composition in images.
+Traditionally, models predicting the aesthetic appeal of an image rely on black box approaches, lacking transparency about the influence of geometric features on compositional success. Unlike these models, this project delves deeper into establishing objective geometrical relationships that define good photographic composition. By focusing on interpretability, actionable insights contributing to enhanced composition in images can be identified.
 
 ## Approach
-I plan to extract geometric features from the composition elements of each image, such as the size of the subject and its placement, the orientation and positioning of leading lines. These features, combined with scene category and composition rule annotations, will form a feature vector for each image. Applying manifold learning techniques, I plan to embed these vectors into a lower-dimensional space, revealing clusters and patterns that correlate with high composition scores. This analysis will not only reveal what constitutes well-composed images, but also provide a roadmap for compositional improvement by identifying pathways on the manifold that lead to higher scores.
+Extracting geometric features from composition elements, such as subject size and placement, leading line orientation, forms the basis of this approach. These features, combined with qualitative image annotations, such as exposure, color harmony, object emphasis, depth of field, and others, create feature vectors for each image. Manifold learning techniques are then applied to embed these vectors into a lower-dimensional space, revealing clusters and patterns correlated with high composition scores.
+
+For more details, explore the corresponding notebooks.
 
 ## Data 
-I am using the [Image Composition Assessment DataBase (CADB)](https://github.com/bcmi/Image-Composition-Assessment-Dataset-CADB), which provides over 10,000 images with detailed composition category labels, annotations for the main subjects and leading lines, and human-assigned composition scores.
+The project utilizes the [Image Composition Assessment DataBase (CADB)](https://github.com/bcmi/Image-Composition-Assessment-Dataset-CADB), offering over 10,000 images with detailed composition category labels, annotations for main subjects and leading lines, and human-assigned composition scores.
 
 ## Project Structure
 
