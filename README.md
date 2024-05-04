@@ -29,24 +29,15 @@ photo_composition/
 │       └── visualize_cadb_annotation.py     # Visualizing annotations of composition score,  
 │                                            # scene category, and composition element
 │
-├── requirements.txt                         # TODO: Project dependencies
 ├── .gitignore                               # Specifies intentionally untracked files to ignore
 └── README.md                                # Project overview, setup, and usage instructions
 ```
-
-## Setup and Installation
-
-1. Clone this repository:
-    ```
-    git clone git@github.com:vladd-i/photo_composition.git
-    ```
-2. Install required dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
 - Navigate to the `notebooks/` directory and open the Jupyter notebooks to inspect exploratory data analysis results, 
 feature engineering steps, and manifold learning techniques applied to high-dimensional image representations to learn 
 patterns.
+
+- To execute code, you'll need to download the dataset listed above and put it in the folder `data/` in the root of 
+the project. 
